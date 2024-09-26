@@ -5,6 +5,7 @@ function App() {
   return (
     <>
       <Counter />
+      <h1>hello</h1>
     </>
   );
 }
