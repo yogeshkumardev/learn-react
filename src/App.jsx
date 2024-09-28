@@ -1,11 +1,20 @@
 import "./App.css";
-import Counter from "./components/counter";
+// import Card from "./components/sync-state/card";
+import Accordion from "./components/sync-state/accordian";
+import { useState } from "react";
+
 
 function App() {
+  // const [name, setName] = useState("")
+ 
   return (
     <>
-      <Counter />
-      <h1>hello</h1>
+   {/* <Card title="card1" name={name} setName={setName}/>
+   <Card title="card2" name={name} setName={setName}/> */}
+
+   <Accordion />
+   
+    
     </>
   );
 }

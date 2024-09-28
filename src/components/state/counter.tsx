@@ -10,7 +10,7 @@ const Counter = () => {
       <div className='flex gap-2'>
         <button
           onClick={() => {
-            setCount(count + 1);
+            setCount( count + 1);
           }}
         >
           Increment
